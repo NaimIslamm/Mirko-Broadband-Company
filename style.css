@@ -40,7 +40,7 @@
   cursor: pointer;
   font-size: 1rem;
   border: 2px solid #0ee951;
-  transition: all 0.15s ease-in-out;
+  transition: all 0.1s ease;
   width: 140px;
 }
 .btn:hover {
@@ -199,10 +199,13 @@ nav {
   padding: 20px;
   border-radius: 0;
   text-align: left;
+  transition: all 0.4s ease;
 }
+
 .service-box:hover {
-  box-shadow: 5px 5px 0px 0px #0ee951;
-  border: 3px solid #0ee951;
+  box-shadow: 3px 3px 0px 0px #0ee951;
+  border: 2px solid #0ee951;
+  transform: scale(1.1);
 }
 .fa-house {
   font-size: 2rem;
@@ -211,7 +214,7 @@ nav {
 .service-2nd-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 22px;
 }
 .service-box-heading {
   color: #fff;
@@ -421,7 +424,25 @@ nav {
 }
 
 /*...........Ended Rewarding Job Section.............  */
-
+/*...........Started Track Section.........  */
+.track-section-wrapper {
+  background-color: #ffd0db;
+  padding: 40px 20px;
+}
+.track-section-inner {
+  margin: 0 auto;
+}
+.track-section-1st-row {
+  margin: 0 auto;
+  text-align: center;
+}
+.track-image-two {
+  display: none;
+}
+.track-section-2nd-row img {
+  margin: 0 auto;
+}
+/*...........Ended Track Section.........  */
 /*---------STARTED RESPONSIVE CSS----------- */
 @media screen and (max-width: 768px) {
   .main-menu {
@@ -447,6 +468,7 @@ nav {
     z-index: 999;
     gap: 15px;
     transition: all 0.9s ease !important;
+    font-size: 1.2rem;
   }
 
   .menu-btn-section a {
@@ -478,14 +500,24 @@ nav {
     opacity: 1;
   }
   /* ............Hero Section....... */
+  /* ........Bundle Section..... */
   .bundle-box {
     width: 100%;
   }
+  /* ......Service Section....... */
   .service-box {
     width: 100%;
   }
+  /*.......Rewardin Section.........  */
   .rewarding-job-box {
     width: 100%;
+  }
+  /* ........Track Section......... */
+  .track-image-two {
+    display: block;
+  }
+  .track-image-one {
+    display: none;
   }
 }
 
