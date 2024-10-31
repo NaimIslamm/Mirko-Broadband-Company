@@ -1,0 +1,492 @@
+/*------------- font uploaded------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/*------------- font uploaded------- */
+
+/* ------------RESET CSS---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ------------RESET CSS---------- */
+
+/*----------------- common css---------- */
+:root {
+  --primary: #1c262f;
+  --primary-light: #212d37;
+  --secondary: #0ee951;
+  --tertiary: #00dabf;
+  --gradient: linear-gradient(to right, #0ee951, #00dabf);
+}
+/* -----layout css----- */
+.container {
+  max-width: 1116px;
+  margin: 0 auto;
+}
+/* -----layout css----- */
+.btn {
+  display: inline-block;
+  color: white;
+  border: 2px solid var(--gradient);
+  padding: 10px 30px;
+  background-color: transparent;
+  box-shadow: 5px 5px 0px 0px #0ee951;
+  text-decoration: none;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  border-image-slice: 1;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 1rem;
+  border: 2px solid #0ee951;
+  transition: all 0.15s ease-in-out;
+  width: 140px;
+}
+.btn:hover {
+  box-shadow: unset;
+}
+/*----------------- common css---------- */
+/*------- started menu section---------- */
+header {
+  background-image: url(assets/images/home.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+nav {
+  padding-top: 1.7rem;
+  padding-bottom: 1rem;
+}
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 30%;
+  font-weight: 600;
+  line-height: 1rem;
+  font-size: 1.575rem;
+  font-family: sans-serif;
+}
+.logo a {
+  color: #fff;
+  text-decoration: none;
+}
+.menu-btn-section {
+  width: 70%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.menu-btn-section a {
+  position: relative;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #eeeeee;
+  padding: 0 12px;
+}
+.menu-btn-section a:hover {
+  color: #0ee951;
+}
+.menu-btn {
+  display: none;
+}
+.fa-facebook {
+  color: #fff;
+  background-image: linear-gradient(#0ee951, #00dabf);
+  padding: 6px;
+  border-radius: 100%;
+}
+.fa-twitter {
+  color: #fff;
+  background-image: linear-gradient(#0ee951, #00dabf);
+  padding: 6px;
+  border-radius: 100%;
+}
+
+/*------- started menu section---------- */
+/* -------HERO SECTION-------- */
+.hero-section-wrapper {
+  padding: 30px;
+}
+.hero-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  gap: 30px;
+}
+.hero-h1 {
+  font-family: "poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  color: #fff;
+  width: 60%;
+  line-height: 4rem;
+}
+.gradient-color {
+  color: #0ee951;
+}
+.hero-paragraph {
+  font-family: "poppins", sans-serif;
+  width: 50%;
+  color: #f8f9fa;
+  opacity: 0.7;
+  line-height: 1.5rem;
+}
+.row-with-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.icon {
+  font-size: 1.33rem;
+  color: #0ee951;
+}
+.row-with-icon p {
+  color: #f8f9fa;
+  font-family: "poppins", sans-serif;
+}
+.hero-button a {
+  color: #eeeeee;
+  text-decoration: none;
+}
+/* -------HERO SECTION-------- */
+/*--------Started Service Section----- */
+.service-section-wrapper {
+  background-color: #1c262f;
+  padding: 30px 20px;
+}
+.service-section-inner {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.service-1st-row {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0;
+  margin: 0 auto;
+  gap: 0.8rem;
+}
+.service-1st-row p {
+  color: #f8f9fa;
+  font-family: "poppins", sans-serif;
+  opacity: 0.7;
+  text-align: center;
+  line-height: 1.8rem;
+}
+.service-1st-row h2 {
+  color: #fff;
+  font-family: "poppins", sans-serif;
+  font-size: 2.1rem;
+  text-align: center;
+  font-weight: 600;
+}
+.service-box {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  border: 2px solid white;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 0;
+  text-align: left;
+}
+.service-box:hover {
+  box-shadow: 5px 5px 0px 0px #0ee951;
+  border: 3px solid #0ee951;
+}
+.fa-house {
+  font-size: 2rem;
+  color: #0ee951;
+}
+.service-2nd-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.service-box-heading {
+  color: #fff;
+  font-family: "poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.service-box-prgph {
+  color: #f8f9fa;
+  font-family: "poppins", sans-serif;
+  opacity: 0.7;
+}
+/*--------Ended Service Section----- */
+/*...........Started Bundle Section.............  */
+.bundle-section-wrapper {
+  background-color: #1c262f;
+  padding: 30px 20px;
+}
+.bundle-section-inner {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.bundle-1st-row {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0;
+  margin: 0 auto;
+  gap: 0.8rem;
+}
+.bundle-1st-row p {
+  color: #f8f9fa;
+  font-family: "poppins", sans-serif;
+  opacity: 0.7;
+  text-align: center;
+  line-height: 1.8rem;
+}
+.bundle-1st-row h2 {
+  color: #fff;
+  font-family: "poppins", sans-serif;
+  font-size: 2.1rem;
+  text-align: center;
+  font-weight: 600;
+}
+.bundle-2nd-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.bundle-box {
+  background: transparent;
+  border: 3px solid white;
+  padding: 25px;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.bundle-box-heading {
+  color: #fff;
+  font-family: "poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.bundle-box-prgph {
+  color: #f8f9fa;
+  font-family: "poppins", sans-serif;
+  font-size: 0.9rem;
+}
+.p-icon {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+}
+.fa-circle-check {
+  color: #0ee951;
+}
+/*...........Ended Bundle Section.............  */
+/*...........Started Rewarding Job Section.............  */
+.rewarding-job-section-wrapper {
+  background-color: #1c262f;
+  padding: 30px 20px;
+}
+.rewarding-job-section-inner {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.job-section-1st-row {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0;
+  margin: 0 auto;
+  gap: 0.8rem;
+}
+.job-section-1st-row p {
+  color: #f8f9fa;
+  font-family: "poppins", sans-serif;
+  opacity: 0.7;
+  text-align: center;
+  line-height: 1.8rem;
+}
+.job-section-1st-row h2 {
+  color: #fff;
+  font-family: "poppins", sans-serif;
+  font-size: 2.1rem;
+  text-align: center;
+  font-weight: 600;
+}
+.job-section-2nd-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  position: relative;
+}
+
+.rewarding-job-box {
+  background: #b5f566;
+  padding: 25px;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+}
+.rewarding-job-box h3 {
+  margin-top: 200px;
+  font-size: 35px;
+  color: #04753f;
+  max-width: 180px;
+  font-family: "poppins", sans-serif;
+  line-height: 44px;
+}
+.rewarding-job-box p {
+  font-size: 18px;
+  color: #333333;
+  font-family: "poppins", sans-serif;
+  line-height: 24px;
+}
+.two {
+  background-color: #fff4e0;
+}
+.two h3 {
+  max-width: 290px !important;
+  color: #ff9820;
+}
+.two p {
+  color: #333333;
+}
+
+.orange-round {
+  width: 100%;
+  max-width: 153px;
+  position: absolute;
+  left: 30px;
+  top: 20px;
+}
+.horse {
+  width: 100%;
+  max-width: 204px;
+  position: absolute;
+  left: 90px;
+  top: -10px;
+}
+
+.tree-background {
+  width: 100%;
+  max-width: 240px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.tree {
+  width: 100%;
+  max-width: 220px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1111;
+}
+.three h3 {
+  max-width: 250px !important;
+}
+.fish-1 {
+  width: 100%;
+  max-width: 160px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.fish-2 {
+  width: 100%;
+  max-width: 160px;
+  position: absolute;
+  right: 150px;
+  top: 30px;
+}
+.three {
+  background-color: #1b65ce !important;
+}
+.three h3 {
+  color: #96d6fa !important;
+}
+.three p {
+  color: #f5f5f5 !important;
+}
+
+/*...........Ended Rewarding Job Section.............  */
+
+/*---------STARTED RESPONSIVE CSS----------- */
+@media screen and (max-width: 768px) {
+  .main-menu {
+    background-color: #1c262f;
+    padding: 10px;
+    margin-top: -27px;
+  }
+  .menu-btn {
+    display: block;
+  }
+  .menu-btn-section {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #1c262f;
+    backdrop-filter: blur(5px);
+    width: 95%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    gap: 15px;
+    transition: all 0.9s ease !important;
+  }
+
+  .menu-btn-section a {
+    margin-top: 15px;
+    padding: 0 15px;
+  }
+
+  .menu-btn i {
+    color: #ffffff;
+  }
+  .menu-btn i {
+    font-size: 2.3em;
+  }
+
+  .fa-xmark i {
+    margin: 0 10px;
+    font-size: 2.3em;
+  }
+  .fa-xmark i:hover::after {
+    width: 0%;
+  }
+  /* ............Hero Section....... */
+  .hero-h1 {
+    font-size: 45px;
+    width: 100%;
+  }
+  .hero-paragraph {
+    width: 100%;
+    opacity: 1;
+  }
+  /* ............Hero Section....... */
+  .bundle-box {
+    width: 100%;
+  }
+  .service-box {
+    width: 100%;
+  }
+  .rewarding-job-box {
+    width: 100%;
+  }
+}
+
+/*---------ENDED RESPONSIVE CSS----------- */
