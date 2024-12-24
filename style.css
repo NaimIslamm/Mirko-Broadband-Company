@@ -431,18 +431,212 @@ nav {
 }
 .track-section-inner {
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 .track-section-1st-row {
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   text-align: center;
 }
 .track-image-two {
   display: none;
 }
-.track-section-2nd-row img {
+
+.track-section-1st-row h2 {
+  font-size: 2.1rem;
+  font-family: "poppins", sans-serif;
+  text-align: center;
+  font-weight: 600;
+  max-width: 522px;
   margin: 0 auto;
 }
-/*...........Ended Track Section.........  */
+.track-section-2nd-row {
+  text-align: center;
+}
+.track-section-2nd-row img {
+  width: 100%;
+  max-width: 844px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+.track-section-1st-row li {
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: "poppins", sans-serif;
+}
+li:before {
+  content: url(assets/images/noun-check-mark-15008-1.png);
+  margin-top: 5px;
+}
+/* ---------Start stone-product-section----------- */
+
+.stone-product-section-wrapper {
+  background-color: #f7f7f7;
+  padding: 280px 20px;
+  background-image: url(https://cmh1p3ueji.onrocket.site/wp-content/uploads/2024/10/Line-BG.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.stone-product-section-inner {
+  width: 1551px;
+  display: flex;
+  margin: 0 auto;
+}
+.stone-product-1st-coloum {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: flex-start;
+}
+.stone-product-2nd-coloum {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: flex-end;
+}
+.stone-product-1st-coloum-1st-row {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.stone-product-1st-row-button a {
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 8px 12px;
+  border-radius: 25px;
+}
+.stone-product-1st-row-heading h2 {
+  font-size: 66px;
+  line-height: 90px;
+  font-weight: 600;
+  max-width: 550px;
+}
+.stone-product-1st-coloum-2nd-row {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.stone-product-image-box {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.image-box-details {
+  display: flex;
+  justify-content: space-between;
+}
+.display-image img {
+  width: 100%;
+}
+.box-details-title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.box-details-title h4 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #212121;
+}
+.box-details-title p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #909090;
+}
+.box-details-icon i {
+  color: #212121;
+  background-color: white;
+  width: 52px;
+  height: 52px;
+  border-radius: 25px;
+  padding: 20px;
+}
+.box-details-icon i:hover {
+  background-color: #00dabf;
+  transition: all 0.5s ease-in-out;
+  scale: 1.1;
+}
+.image-box-one {
+  max-width: 653px;
+}
+.image-box-three {
+  max-width: 654px;
+}
+/* ---------Ended-stone-product-section----------- */
+/*---------------- Started-Image-slider-section------------------- */
+.image-slider-section-inner {
+  /* width: 1551px; */
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.slider {
+  position: relative;
+  width: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+.slides img {
+  width: 100%;
+}
+.slides input {
+  display: none;
+}
+.slide {
+  width: 100%;
+  flex-shrink: 0;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.controls label {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ddd;
+  box-shadow: #1c262f 1px 1px 6px;
+  cursor: pointer;
+}
+#slide1:checked ~ .slides {
+  transform: translateX(0);
+}
+#slide2:checked ~ .slides {
+  transform: translateX(-100%);
+}
+#slide3:checked ~ .slides {
+  transform: translateX(-200%);
+}
+/*----------------Ended-Image-slider-section------------------- */
+/*----------End stone-product-section------------- */
+/*...........Ended Track Section..........*/
 /*---------STARTED RESPONSIVE CSS----------- */
 @media screen and (max-width: 768px) {
   .main-menu {
@@ -519,6 +713,59 @@ nav {
   .track-image-one {
     display: none;
   }
+  /* ---------Start stone-product-section----------- */
+  .stone-product-section-wrapper {
+    padding: 30px 20px;
+  }
+  .stone-product-section-inner {
+    width: 100%;
+    gap: 16px;
+  }
+  .stone-product-1st-coloum-2nd-row {
+    gap: 10px;
+  }
+  .display-image img {
+    height: 170px;
+  }
+  .stone-product-1st-coloum {
+    gap: 10px;
+  }
+  .stone-product-2nd-coloum {
+    margin-top: 50px;
+    gap: 10px;
+  }
+  .stone-product-1st-row-button {
+    display: none;
+  }
+
+  .stone-product-1st-row-heading h2 {
+    font-size: 20px;
+    width: 100% !important;
+    line-height: 20px;
+  }
+  .box-details-title h4 {
+    font-size: 14px;
+  }
+  .box-details-title p {
+    font-size: 10px;
+  }
+  .box-details-icon i {
+    font-size: 10px;
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+  }
+  .stone-product-image-box {
+    gap: 10px;
+  }
+  .image-box-one {
+    width: 100%;
+  }
+  .image-box-three {
+    width: 100%;
+  }
+
+  /* ---------END stone-product-section----------- */
 }
 
 /*---------ENDED RESPONSIVE CSS----------- */
