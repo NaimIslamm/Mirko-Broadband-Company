@@ -544,6 +544,8 @@ li:before {
 }
 .display-image img {
   width: 100%;
+  object-fit: cover;
+  object-position: center center;
 }
 .box-details-title {
   display: flex;
@@ -580,6 +582,53 @@ li:before {
   max-width: 654px;
 }
 /* ---------Ended-stone-product-section----------- */
+/*-------------- Started Solutions Section------------ */
+.solutions-section-wrapper {
+  background-color: #f7f7f7;
+}
+.solutions-section-inner {
+  /* width: 1551px !important; */
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.solutions-heading h2 {
+  max-width: 750px;
+}
+.carousel-wrapper {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  overflow: hidden;
+}
+.swiper {
+  margin: 0 !important;
+}
+.slide {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50% !important;
+  height: 801px !important;
+}
+
+.carousel-one {
+  background-image: url(assets/images/Ivory\ -\ Residential\ -\ Naples\ -\ Outdoor\ Area\ 1.png);
+}
+.carousel-two {
+  background-image: url(assets/images/Ivory\ -\ Residential\ -\ Naples\ -\ Outdoor\ Area\ 1.png);
+  width: 269px !important;
+}
+.carousel-three {
+  background-image: url(assets/images/Ivory\ -\ Residential\ -\ Naples\ -\ Outdoor\ Area\ 1.png);
+  width: 269px !important;
+}
+.carousel-four {
+  background-image: url(assets/images/Ivory\ -\ Residential\ -\ Naples\ -\ Outdoor\ Area\ 1.png);
+  width: 269px !important;
+}
+/*-------------- Ended Solutions Section------------ */
+
 /*---------------- Started-Image-slider-section------------------- */
 .image-slider-section-inner {
   /* width: 1551px; */
@@ -702,7 +751,7 @@ li:before {
   .service-box {
     width: 100%;
   }
-  /*.......Rewardin Section.........  */
+  /*.......Rewarding Section.........  */
   .rewarding-job-box {
     width: 100%;
   }
@@ -713,6 +762,14 @@ li:before {
   .track-image-one {
     display: none;
   }
+  /*...........Started Track Section..........*/
+  .track-section-1st-row ul {
+    gap: 10px;
+  }
+  .track-section-1st-row li {
+    font-size: 1rem;
+  }
+  /*...........Ended Track Section..........*/
   /* ---------Start stone-product-section----------- */
   .stone-product-section-wrapper {
     padding: 30px 20px;
