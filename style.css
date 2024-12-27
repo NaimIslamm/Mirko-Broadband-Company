@@ -628,6 +628,136 @@ li:before {
   width: 269px !important;
 }
 /*-------------- Ended Solutions Section------------ */
+/* ------------Started blog-inspirations-section------- */
+.blog-inspirations-section-wrapper {
+  background-color: white;
+}
+.blog-inspirations-section-inner {
+  width: 1551px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 100px 100px;
+  gap: 30px;
+}
+.inspirations-sec-btn-heading a {
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 8px 12px;
+  border-radius: 25px;
+}
+.inspirations-sec-btn a {
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 25px;
+  gap: 6px;
+  display: flex;
+  width: fit-content;
+}
+
+.inspirations-sec-btn-heading h2 {
+  font-size: 66px;
+  line-height: 90px;
+  font-weight: 600;
+}
+.blog-inspirations-section-1st-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog-inspirations-section-2nd-row {
+  background-color: #212121;
+  padding: 20px 50px 20px 20px;
+  display: flex;
+  gap: 40px;
+}
+.blog-inspirations-section-2nd-row img {
+  width: 100%;
+  max-width: 500px;
+  object-fit: cover;
+}
+.inspirations-sec-2nd-coloum {
+  width: 35% !important;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.inspirations-sec-2nd-coloum h3 {
+  font-size: 40px;
+  line-height: 60px;
+  color: white;
+  font-weight: 600;
+}
+.inspirations-post-time-date {
+  display: flex;
+  gap: 20px;
+}
+.inspirations-post-time-date p {
+  color: #909090;
+}
+.inspirations-paragraph {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin-top: 20px;
+}
+.inspirations-paragraph p {
+  max-width: 300px !important;
+  color: white;
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 500;
+}
+.btn-arrow {
+  display: flex;
+  justify-content: right;
+}
+.btn-arrow i {
+  background-color: white;
+  padding: 20px;
+  border-radius: 50%;
+  display: flex;
+  width: 55px;
+  rotate: -45deg;
+}
+.blog-inspirations-section-3rd-row {
+  justify-content: space-between;
+  display: flex;
+  padding: 20px;
+  border-bottom: solid #dddddd 1px;
+}
+.blog-inspiration-3rd-row-image {
+  width: 41%;
+}
+.blog-inspirations-section-3rd-row img {
+  width: 100%;
+  max-width: 224px;
+  object-fit: cover;
+}
+
+.blog-inspirations-section-3rd-row h3 {
+  width: 28%;
+  font-size: 40px;
+  line-height: 60px;
+  color: #212121;
+  font-weight: 600;
+}
+
+.blog-inspirations-section-3rd-row p {
+  width: 31%;
+  max-width: 434px !important;
+  color: #909090;
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 500;
+}
+/* ------------Ended blog-inspirations-section------- */
 
 /*---------------- Started-Image-slider-section------------------- */
 .image-slider-section-inner {
