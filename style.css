@@ -639,6 +639,17 @@ li:before {
   margin: 0 auto;
   padding: 100px 100px;
   gap: 30px;
+  height: 100vh;
+}
+
+.tag {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+.tag.visible {
+  opacity: 1 !important;
+  transform: translate(0, 0);
 }
 .inspirations-sec-btn-heading a {
   text-decoration: none;
@@ -732,6 +743,7 @@ li:before {
   padding: 20px;
   border-bottom: solid #dddddd 1px;
 }
+
 .blog-inspiration-3rd-row-image {
   width: 41%;
 }
