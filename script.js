@@ -1,6 +1,5 @@
 new Swiper(".carousel", {
   loop: true,
-
   // pagination bullets
   pagination: {
     el: ".swiper-pagination",
@@ -13,6 +12,22 @@ new Swiper(".carousel", {
   },
 });
 
+// -----------------------practice slider section---------------
+new Swiper(".swiper", {
+  loop: true,
+  slidesPerView: 2,
+  spaceBetween: 30,
+  // pagination bullets
+  pagination: {
+    el: ".swiper-pagination",
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
 // scroll effect
 $(document).on("scroll", function () {
   var pageTop = $(document).scrollTop();

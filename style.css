@@ -642,11 +642,11 @@ li:before {
   height: 100vh;
 }
 
-.tag {
+/* .tag {
   opacity: 0;
   transform: translate(0, 10vh);
   transition: all 1s;
-}
+} */
 .tag.visible {
   opacity: 1 !important;
   transform: translate(0, 0);
@@ -770,6 +770,60 @@ li:before {
   font-weight: 500;
 }
 /* ------------Ended blog-inspirations-section------- */
+/* ----------------Practice-slider-section----------------- */
+.slider-practice-section-wrapper {
+  background-color: #f7f7f7;
+  margin: 100px 0;
+}
+.slider-practice-section-inner {
+  width: 1551px;
+  display: flex;
+  margin: 0 auto;
+  padding: 100px 20px;
+}
+.swiper {
+  width: 60%;
+  margin: 0 auto;
+}
+.slider-practice-1st-coloum {
+  width: 40%;
+}
+.swiper-wrapper {
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.practice-slide.one {
+  width: 400px !important;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 20px;
+  background-color: white;
+  gap: 30px;
+  margin: 0 auto;
+}
+.swiper-pagination {
+  visibility: hidden;
+}
+.slide-btn {
+  width: 20px;
+  height: 20px;
+  color: #212121;
+  background-color: white;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: aqua 1px 0.5px;
+}
+.slide-btn:hover {
+  background-color: lavender;
+}
+.slide-btn::after {
+  font-size: 20px;
+}
+.rating {
+  color: #e47b37;
+}
+/* ----------------Practice-slider-section----------------- */
 
 /*---------------- Started-Image-slider-section------------------- */
 .image-slider-section-inner {
