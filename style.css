@@ -824,6 +824,108 @@ li:before {
   color: #e47b37;
 }
 /* ----------------Practice-slider-section----------------- */
+/* -----------Start-Get-in-touch-section---------- */
+.get-in-touch-section-wrapper {
+  background-color: white;
+}
+.get-in-touch-section-inner {
+  /* width: 1551px; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.get-in-touch-1st-coloum {
+  width: 50%;
+  padding: 130px;
+}
+.get-in-touch-1st-coloum .slider-practice-1st-coloum {
+  width: 100%;
+}
+.get-in-touch-1st-coloum .slider-practice-1st-coloum h2 {
+  max-width: 462px;
+}
+.get-in-touch-2nd-coloum {
+  width: 50%;
+}
+.get-in-touch-2nd-coloum img {
+  width: 100%;
+  max-width: 953px;
+  object-fit: cover;
+}
+/* ---------FORM------------- */
+input {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #909090;
+  padding: 10px 0;
+  font-size: 20px;
+  color: #909090;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.half {
+  width: 100%;
+}
+.stone-product-1st-coloum-1st-row .row {
+  display: flex;
+  gap: 30px;
+}
+#email {
+  width: 100%;
+}
+#phone {
+  width: 100%;
+}
+#zip {
+  width: 100%;
+}
+#describe {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #909090;
+  padding: 10px 0;
+  font-size: 20px;
+  color: #909090;
+}
+#interest {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #909090;
+  padding: 10px 0;
+  font-size: 20px;
+  color: #909090;
+}
+#quantity {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #909090;
+  padding: 10px 0;
+  font-size: 20px;
+  color: #909090;
+}
+#project {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #909090;
+  padding: 10px 0;
+  font-size: 20px;
+  color: #909090;
+}
+.get-in-touch-1st-coloum button {
+  width: fit-content;
+  max-width: 190px;
+  border-radius: 25px;
+  padding: 20px;
+  background-color: transparent;
+  border: 1px solid #212121;
+}
+
+/* ---------FORM------------- */
+/* -----------Ende-Get-in-touch-section---------- */
 
 /*---------------- Started-Image-slider-section------------------- */
 .image-slider-section-inner {
@@ -1017,8 +1119,20 @@ li:before {
   .image-box-three {
     width: 100%;
   }
-
   /* ---------END stone-product-section----------- */
+  .get-in-touch-section-inner {
+    flex-direction: column;
+  }
+  form {
+    flex-wrap: wrap;
+  }
+  .get-in-touch-1st-coloum {
+    width: 100%;
+    padding: 20px;
+  }
+  .get-in-touch-2nd-coloum {
+    width: 100%;
+  }
 }
 
 /*---------ENDED RESPONSIVE CSS----------- */
