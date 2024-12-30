@@ -85,7 +85,6 @@ nav {
   font-size: 0.8rem;
 }
 .menu-btn-section a {
-  position: relative;
   font-family: sans-serif;
   text-decoration: none;
   color: #eeeeee;
@@ -988,14 +987,14 @@ form {
 @media screen and (max-width: 768px) {
   .main-menu {
     background-color: #1c262f;
-    padding: 10px;
+    padding: 12px;
     margin-top: -27px;
   }
   .menu-btn {
     display: block;
   }
   .menu-btn-section {
-    display: none;
+    /* display: none; */
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
@@ -1014,20 +1013,16 @@ form {
 
   .menu-btn-section a {
     margin-top: 15px;
-    padding: 0 15px;
+    padding: 0 20px;
   }
 
   .menu-btn i {
     color: #ffffff;
-  }
-  .menu-btn i {
+    font-size: 2.3em;
+    margin: 10px 15px;
     font-size: 2.3em;
   }
 
-  .fa-xmark i {
-    margin: 0 10px;
-    font-size: 2.3em;
-  }
   .fa-xmark i:hover::after {
     width: 0%;
   }
